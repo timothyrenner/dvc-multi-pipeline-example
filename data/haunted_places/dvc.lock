@@ -1,0 +1,10 @@
+preprocess:
+  cmd: python ../../scripts/add_column.py haunted_places.csv haunted_places_processed.csv
+  deps:
+  - path: ../../scripts/add_column.py
+    md5: c0c28ffbfbc7bcfa5ae9d5004d99ac2a
+  - path: haunted_places.csv
+    md5: 748b5932104b4ed805da2b8b8fef4cc4
+  outs:
+  - path: haunted_places_processed.csv
+    md5: 51319b5c36c6820b6cdc2273a3aa9d16

@@ -1,0 +1,10 @@
+preprocess:
+  cmd: python ../../scripts/add_column.py bigfoot_sightings.csv bigfoot_sightings_processed.csv
+  deps:
+  - path: ../../scripts/add_column.py
+    md5: c0c28ffbfbc7bcfa5ae9d5004d99ac2a
+  - path: bigfoot_sightings.csv
+    md5: 6057942cebe07158a31bb3ecd817c0de
+  outs:
+  - path: bigfoot_sightings_processed.csv
+    md5: a4ac0d38cd0f7850c88896fde459f920

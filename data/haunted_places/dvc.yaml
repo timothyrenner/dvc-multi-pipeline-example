@@ -1,0 +1,8 @@
+stages:
+  preprocess:
+    cmd: python ../../scripts/add_column.py haunted_places.csv haunted_places_processed.csv
+    deps:
+    - ../../scripts/add_column.py
+    - haunted_places.csv
+    outs:
+    - haunted_places_processed.csv
