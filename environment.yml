@@ -1,0 +1,13 @@
+name: dvc-multi-pipeline-example
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - python=3.7
+    - pip:
+        - flake8
+        - black
+        - mypy
+        - dvc
+        - typer
+        - pandas
