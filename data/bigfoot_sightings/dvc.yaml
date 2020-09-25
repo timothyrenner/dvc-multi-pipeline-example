@@ -1,8 +1,11 @@
 stages:
   preprocess:
-    cmd: python ../../scripts/add_column.py bigfoot_sightings.csv bigfoot_sightings_processed.csv
+    cmd: python ../../scripts/add_column.py
     deps:
-    - ../../scripts/add_column.py
-    - bigfoot_sightings.csv
+      - ../../scripts/add_column.py
+      - bigfoot_sightings.csv
+    params:
+      - preprocess.input_file
+      - preprocess.output_file
     outs:
-    - bigfoot_sightings_processed.csv
+      - bigfoot_sightings_processed.csv

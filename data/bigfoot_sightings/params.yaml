@@ -1,0 +1,3 @@
+preprocess:
+  input_file: "bigfoot_sightings.csv"
+  output_file: "bigfoot_sightings_processed.csv"

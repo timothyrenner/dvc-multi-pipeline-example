@@ -1,0 +1,3 @@
+preprocess:
+  input_file: "haunted_places.csv"
+  output_file: "haunted_places_processed.csv"
