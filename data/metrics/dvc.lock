@@ -5,9 +5,9 @@ summarize:
   - path: ../../scripts/summarize.py
     md5: e1f2b6c328790bf5465a2ee02dcf858f
   - path: ../bigfoot_sightings/bigfoot_sightings_processed.csv
-    md5: bbd770ef0a71378c121b3a9969b328a5
+    md5: aee86a5bfe6cc77caf14b2de6ac0d4a4
   - path: ../haunted_places/haunted_places_processed.csv
-    md5: c2bf5ef1d2d7d562e9597363dd5d8011
+    md5: 247a5794cb681d0444013c7db14b29cd
   outs:
   - path: metrics.json
-    md5: 9c14f5d865a96673bbb46ae1941a6dd5
+    md5: 9d33fb21e1458b45ed7dce218bbce7d1
