@@ -1,0 +1,13 @@
+summarize:
+  cmd: python ../../scripts/summarize.py ../bigfoot_sightings/bigfoot_sightings_processed.csv
+    ../haunted_places/haunted_places_processed.csv metrics.json
+  deps:
+  - path: ../../scripts/summarize.py
+    md5: e1f2b6c328790bf5465a2ee02dcf858f
+  - path: ../bigfoot_sightings/bigfoot_sightings_processed.csv
+    md5: bbd770ef0a71378c121b3a9969b328a5
+  - path: ../haunted_places/haunted_places_processed.csv
+    md5: c2bf5ef1d2d7d562e9597363dd5d8011
+  outs:
+  - path: metrics.json
+    md5: 9c14f5d865a96673bbb46ae1941a6dd5

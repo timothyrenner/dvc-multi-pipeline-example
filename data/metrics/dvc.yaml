@@ -1,0 +1,10 @@
+stages:
+  summarize:
+    cmd: python ../../scripts/summarize.py ../bigfoot_sightings/bigfoot_sightings_processed.csv
+      ../haunted_places/haunted_places_processed.csv metrics.json
+    deps:
+    - ../../scripts/summarize.py
+    - ../bigfoot_sightings/bigfoot_sightings_processed.csv
+    - ../haunted_places/haunted_places_processed.csv
+    outs:
+    - metrics.json

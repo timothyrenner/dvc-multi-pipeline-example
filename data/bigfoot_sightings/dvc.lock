@@ -2,7 +2,7 @@ preprocess:
   cmd: python ../../scripts/add_column.py
   deps:
   - path: ../../scripts/add_column.py
-    md5: 634dacc757478a260018e31dfb371611
+    md5: e79ee0819f4638d9d0f812a731ff9784
   - path: bigfoot_sightings.csv
     md5: 6057942cebe07158a31bb3ecd817c0de
   params:
@@ -11,4 +11,4 @@ preprocess:
       preprocess.output_file: bigfoot_sightings_processed.csv
   outs:
   - path: bigfoot_sightings_processed.csv
-    md5: 881acc99c079aab3c3faf0ed5481487c
+    md5: bbd770ef0a71378c121b3a9969b328a5
